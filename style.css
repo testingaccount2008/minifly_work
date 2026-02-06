@@ -9,6 +9,7 @@
   box-sizing: border-box;
 }
 
+
 :root {
   --primary-color: #08090b;
   --secondary-color: #ffffff;
@@ -95,12 +96,13 @@ nav {
   display: flex;
   justify-content: center;
   font-size: 14px;
+  padding-top: 10px;
 }
 
 .update-notify p {
-  background-color: rgba(51, 51, 51, 0.2);
+  background-color: rgba(51, 51, 51, 0.3);
   color: var(--secondary-color);
-  padding: 0.3rem 0.7rem;
+  padding: 0.2rem 0.1rem;
   display: flex;
   align-items: center;
   gap: 1rem;
@@ -112,7 +114,7 @@ nav {
   font-size: 13px;
   background-color: #3f8a62;
   color: var(--secondary-color);
-  padding: 1px 10px;
+  padding: 0.2rem 0.5rem;
   border-radius: 1rem;
 }
 
